@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.d-flex {
+    height: 100%;
+}
+
+footer {
+    height: 250px;
+}
+
+
+/* For Mobile and Tablet */
+@media only screen and (max-width: 768px) {
+    .nav-item {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
